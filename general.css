@@ -1,0 +1,27 @@
+body {
+    /* Inherited style */
+    margin: 0px;
+    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: rgb(249, 248, 248); 
+    font-family: Roboto, Arial;
+    transition: all .5s;
+}
+
+@media (min-width: 1200px) {
+    body {
+        padding-left: 250px;
+}
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+} 
